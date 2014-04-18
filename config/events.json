@@ -1,0 +1,17 @@
+{
+    "tinymce.list.link.pre": [
+        {
+            "interface": "ride\\web\\tinymce\\ApplicationListener",
+            "method": "prepareLinkList",
+            "weight": 75
+        }
+    ],
+    "tinymce.list.image.pre": [
+        {
+            "interface": "ride\\web\\tinymce\\ApplicationListener",
+            "method": "prepareImageList",
+            "weight": 75
+
+        }
+    ]
+}

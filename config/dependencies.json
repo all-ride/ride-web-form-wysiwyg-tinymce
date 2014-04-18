@@ -1,0 +1,48 @@
+{
+    "dependencies": [
+        {
+            "interfaces": ["ride\\library\\form\\row\\Row", "ride\\library\\form\\row\\WysiwygRow"],
+            "class": "ride\\library\\form\\row\\TinymceWysiwygRow",
+            "id": "wysiwyg",
+            "calls": [
+                {
+                    "method": "setLocale",
+                    "arguments": [
+                        {
+                            "name": "locale",
+                            "type": "call",
+                            "properties": {
+                                "interface": "ride\\library\\i18n\\I18n",
+                                "method": "getLocale"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "method": "setWeb",
+                    "arguments": [
+                        {
+                            "name": "web",
+                            "type": "dependency",
+                            "properties": {
+                                "interface": "ride\\web\\WebApplication"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "method": "setProperties",
+                    "arguments": [
+                        {
+                            "name": "properties",
+                            "type": "parameter",
+                            "properties": {
+                                "key": "tinymce"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
