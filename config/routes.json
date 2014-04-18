@@ -1,0 +1,22 @@
+{
+    "routes": [
+        {
+            "path": "/tinymce",
+            "controller": "ride\\web\\tinymce\\controller\\TinymceController",
+            "action": "indexAction",
+            "id": "tinymce"
+        },
+        {
+            "path": "/tinymce/images",
+            "controller": "ride\\web\\tinymce\\controller\\TinymceController",
+            "action": "imagesAction",
+            "id": "tinymce.images"
+        },
+        {
+            "path": "/tinymce/links",
+            "controller": "ride\\web\\tinymce\\controller\\TinymceController",
+            "action": "linksAction",
+            "id": "tinymce.links"
+        }
+    ]
+}

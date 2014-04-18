@@ -1,0 +1,20 @@
+{
+    "name": "ride/web-form-wysiwyg-tinymce",
+    "description": "TinyMCE form integration of the Ride framework",
+    "license": "MIT",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "ride/web-form": ">=0.4.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\library\\form\\row\\TinymceWysiwygRow": ["src/"]
+        }
+    }
+}
