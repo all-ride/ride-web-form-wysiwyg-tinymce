@@ -2,7 +2,7 @@
     "name": "ride/web-form-wysiwyg-tinymce",
     "description": "TinyMCE form integration of the Ride framework",
     "license": "MIT",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "authors": [
         {
             "name": "Joris Vandeweerd",
