@@ -58,7 +58,7 @@ class TinymceWysiwygRow extends WysiwygRow {
      */
     public function getJavascripts() {
         return array(
-            'tiny_mce/jquery.tinymce.js',
+            $this->baseUrl . '/tiny_mce/jquery.tinymce.js',
         );
     }
 
